@@ -1,0 +1,11 @@
+{
+    "name": "nodecg-destinyStats",
+    "version": "0.0.1",
+    "nodecgDependency": "~0.6.0",
+    "description": "Show's Destiny Character's information.",
+    "authors": [
+        "El_Eskimo"
+    ],
+    "homepage": "thebrooder.org",
+    "license": "MIT"
+}
