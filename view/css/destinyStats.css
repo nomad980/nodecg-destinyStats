@@ -7,6 +7,7 @@ body {
 	font-family: "BadaBoom BB";
 	font-weight: 400;
 	font-style: normal;
+/*	transform: scale(.75);*/
 }
 /*Grid*/
 .plates {

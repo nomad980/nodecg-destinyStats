@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
 <link href="css/destinyStats.css" rel="stylesheet"/>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="components/jquery/dist/jquery.min.js"></script>
 <script src="components/gsap/src/minified/TweenMax.min.js"></script>
 <script src="js/destinyStats.js"></script>
 </head>
 <body>
 <div class="plates">
-  <div class="plateList" data-membershiptype="1">
-    <div class="characterPlate" style="background-image: url(img/Eskimo.BG.jpg);">
-      <div class="emblem" style="background-image: url(img/Eskimo.EM.jpg);"></div>
-      <div class="characterDetails"> <span class="level">34</span> <span class="powerLevel light">162</span> </div>
+  <div class="plateList">
+    <div class="characterPlate elyril">
+      <div class="emblem elyril"></div>
+      <div class="characterDetails"> <span class="level elyril">34</span> <span class="powerLevel elyril">162</span> </div>
       <div class="characterProgress">
-        <progress max="100" value="80" id="progress0"></progress>
+        <progress max="100" value="80" class="progress elyril"></progress>
       </div>
     </div>
-    <div class="characterPlate" style="background-image: url(img/Solo.BG.jpg);">
-      <div class="emblem" style="background-image: url(img/Solo.EM.jpg);"></div>
-      <div class="characterDetails"> <span class="level">40</span> <span class="powerLevel light">162</span> </div>
+    <div class="characterPlate solo">
+      <div class="emblem solo"></div>
+      <div class="characterDetails"> <span class="level solo">40</span> <span class="powerLevel solo">162</span> </div>
       <div class="characterProgress">
-        <progress max="100" value="80" id="progress1"></progress>
+        <progress max="100" value="80" class="progress solo"></progress>
       </div>
     </div>
-    <div class="characterPlate" style="background-image: url(img/Tigress.BG.jpg);">
-      <div class="emblem" style="background-image: url(img/Tigress.EM.jpg);"></div>
-      <div class="characterDetails"> <span class="level">38</span> <span class="powerLevel light">162</span> </div>
+    <div class="characterPlate tigress">
+      <div class="emblem tigress"></div>
+      <div class="characterDetails"> <span class="level tigress">38</span> <span class="powerLevel tigress">162</span> </div>
       <div class="characterProgress">
-        <progress max="100" value="80" id="progress2"></progress>
+        <progress max="100" value="80" class="progress tigress"></progress>
       </div>
     </div>
-    <div class="cruciblePlate" style="background-image: url(img/Crucible.BG.jpg);">
-      <div class="emblem" style="background-image: url(img/Crucible.EM.jpg);"></div>
+    <div class="cruciblePlate">
+      <div class="emblem crucible"></div>
       <div class="crucibleDetails"> <span class="standing">Victory</span> <span class="kdr">23.0</span> </div>
     </div>
   </div>
