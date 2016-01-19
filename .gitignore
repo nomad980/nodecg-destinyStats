@@ -1,3 +1,4 @@
 graphics/img
-graphics/font
+graphics/style/font
 bower_components
+graphics/info.json
