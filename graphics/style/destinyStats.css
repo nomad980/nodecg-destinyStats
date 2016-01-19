@@ -1,0 +1,140 @@
+/* CSS Document */
+@font-face {
+	font-family: "BadaBoom BB";
+	src: url('BADABB__.TTF'),
+}
+body {
+	font-family: "BadaBoom BB";
+	font-weight: 400;
+	font-style: normal;
+}
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+}
+/*Grid*/
+.plates {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	height: 389px;
+	width: 320px;
+	transform: scale(.5);
+	transform-origin: top left;
+	float: left;
+	box-sizing: border-box;
+	clear:both;
+}
+.plateList {
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+}
+/*Generic*/
+.emblem {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 56px;
+	height: 56px;
+	background-size: cover;
+	box-sizing: border-box;
+}
+/*Character Plates*/
+.characterPlate {
+	padding: 0px 0px 0px 63px;
+	opacity: 1;
+	box-sizing: border-box;
+	width: 100% !important;
+	height: 65px !important;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	background: rgba(30, 36, 43, 0.5) none repeat scroll 0% 0% / contain;
+}
+.characterDetails {
+	box-sizing: border-box;
+	position: relative;
+	top: 5px;
+}
+.level {
+	position: absolute;
+	top: -3px;
+	right: 7px;
+	font-size: 50px;
+	box-sizing: border-box;
+	color: black;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.powerLevel {
+	transform: scale(1);
+	color: #F5DC56;
+	position: absolute;
+	right: 65px;
+	top: -3px;
+	font-size: 50px;
+	box-sizing: border-box;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.characterProgress {
+	height: 8px;
+	position: absolute;
+	overflow: hidden;
+	bottom: 1px;
+	left: 1px;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	right: 1px;
+}
+progress[value] {
+	appearance: none;
+	border: none;
+	width: 100%;
+	height: 20px;
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+	color: royalblue;
+	position: relative;
+	margin: 0 0 1.5em;
+}
+/*Crucible Plate*/
+.cruciblePlate {
+	padding: 0px 0px 0px 63px;
+	opacity: 1;
+	box-sizing: border-box;
+	width: 100% !important;
+	height: 65px !important;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	background: rgba(30, 36, 43, 0.5) none repeat scroll 0% 0% / contain;
+}
+.crucibleDetails {
+	box-sizing: border-box;
+	position: relative;
+	top: 5px;
+}
+.standing {
+	transform: scale(1);
+	position: relative;
+	display: block;
+	font-size: 50px;
+	box-sizing: border-box;
+	color: green;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.kdr {
+	position: absolute;
+	top: -3px;
+	right: 7px;
+	font-size: 50px;
+	box-sizing: border-box;
+	color: black;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
