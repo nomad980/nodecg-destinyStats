@@ -1,4 +1,3 @@
-view/img
-view/font
+graphics/img
+graphics/font
 bower_components
-view/info.json
