@@ -1,15 +1,24 @@
 {
   "name": "nodecg-destinyStats",
   "version": "0.0.1",
+  "description": "Show's Destiny Character's information.",
+  "homepage": "http://thebrooder.org/",
+  "author": {
+    "name": "Ramon Nunez",
+    "email": "nomad980@users.noreply.github.com",
+    "url": "thebrooder.org"
+  },
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/nomad980/nodecg-destinyStats.git"
   },
-  "homepage": "http://thebrooder.org/",
   "contributors": [
-    "El_Eskimo",
+    "El_Eskimo"
   ],
-  "description": "Show's Destiny Character's information.",
   "license": "MIT",
   "nodecg": {
     "compatibleRange": "~0.7.0",
@@ -18,7 +27,8 @@
       "title": "DestinyStats",
       "width": 4,
       "headerColor": "#2ca246",
-      "file": "schedule.html"
+      "file": "destinystats.html",
+      "faIcon": "fa-music"
     }],
     "graphics": [{
       "file": "index.html",
@@ -26,5 +36,6 @@
       "height": 720,
       "singleInstance": true
     }]
-  },
+  }
 }
+
