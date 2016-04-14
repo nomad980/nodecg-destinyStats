@@ -1,4 +1,4 @@
-graphics/img
-graphics/style/font
-bower_components
+graphics/img/
+graphics/style/font/
+bower_components/
 graphics/info.json
